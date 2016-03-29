@@ -1,0 +1,20 @@
+.vbox {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-color: rgb(240, 240, 240);
+    -fx-effect: innershadow(gaussian, rgb(220, 220, 220), 8, 0 , 0 , 4);
+}
+
+.button-box {
+    -fx-spacing: 5;
+}
+
+.table-view:focused {
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+}
+
+.insertion-grid {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
