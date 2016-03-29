@@ -49,6 +49,8 @@ public class MainView {
         insertionPane.managedProperty().bind(insertionPane.visibleProperty());
         summaryTable.managedProperty().bind(summaryTable.visibleProperty());
         summaryTable.visibleProperty().bind(insertionPane.visibleProperty().not());
+
+        summaryTable.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
     }
 
 }
