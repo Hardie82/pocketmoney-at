@@ -48,7 +48,7 @@
                         <DatePicker GridPane.columnIndex="1"/>
                         <Label text="Category" GridPane.rowIndex="1"/>
                         <ComboBox editable="true" maxWidth="Infinity" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-                        <Label text="Item" GridPane.rowIndex="2"/>
+                        <Label text="Description" GridPane.rowIndex="2"/>
                         <TextField maxWidth="Infinity" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
                         <Label text="Price" GridPane.rowIndex="3"/>
                         <TextField maxWidth="Infinity" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
@@ -59,7 +59,7 @@
                     <columns>
                         <TableColumn minWidth="50.0" text="Date"/>
                         <TableColumn minWidth="50.0" text="Category"/>
-                        <TableColumn minWidth="50.0" text="Item"/>
+                        <TableColumn minWidth="50.0" text="Description"/>
                         <TableColumn minWidth="50.0" text="Price"/>
                     </columns>
                 </TableView>
